@@ -1,8 +1,7 @@
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
 <!-- Encoder  Layer A -->
+
 <setting channel="11" controller=" 1" command_string="HueAdjustmentRed"/>
 <setting channel="11" controller=" 2" command_string="HueAdjustmentOrange"/>
 <setting channel="11" controller=" 3" command_string="HueAdjustmentYellow"/>
@@ -42,9 +41,44 @@
 <setting channel="11" controller="50" command_string="ResetHueAdjustmentMagenta"/>
 <!-- Buttons Layer B -->
 
+<!-- Buttons Layer A & B-->
+<setting channel="11" controller="18" command_string="CopySettings"/>
+<setting channel="11" controller="19" command_string="PasteSettings"/>
+<setting channel="11" controller="20" command_string="ResetAll"/>
+<setting channel="11" controller="21" command_string="WhiteBalanceAuto"/>
+<setting channel="11" controller="22" command_string="profile1"/>
+<setting channel="11" controller="23" command_string="profile2"/>
+<setting channel="11" controller="24" command_string="profile3"/>
+<setting channel="11" controller="25" command_string="profile4"/>
+<setting channel="11" controller="26" command_string="Prev"/>
+<setting channel="11" controller="27" command_string="Next"/>
+<setting channel="11" controller="28" command_string="Key2"/>
+<setting channel="11" controller="29" command_string="Undo"/>
+<setting channel="11" controller="30" command_string="RadialFilter"/>
+<setting channel="11" controller="31" command_string="Key1"/>
+<setting channel="11" controller="32" command_string="Preset_1"/>
+<setting channel="11" controller="33" command_string="profile5"/>
 
-<!-- Fader Layer A --><setting channel="11" controller="9" command_string="Unmapped"/>
-<!-- Fader Layer B --><setting channel="11" controller="34" command_string="Unmapped"/>
+<setting channel="11" controller="59" command_string="CopySettings"/>  
+<setting channel="11" controller="60" command_string="PasteSettings"/>
+<setting channel="11" controller="61" command_string="ResetAll"/>
+<setting channel="11" controller="62" command_string="WhiteBalanceAuto"/>
+<setting channel="11" controller="63" command_string="profile1"/>
+<setting channel="11" controller="64" command_string="profile2"/>
+<setting channel="11" controller="65" command_string="profile3"/>
+<setting channel="11" controller="66" command_string="profile4"/>
+<setting channel="11" controller="51" command_string="Prev"/>
+<setting channel="11" controller="52" command_string="Next"/>
+<setting channel="11" controller="53" command_string="Key2"/>
+<setting channel="11" controller="54" command_string="Undo"/>
+<setting channel="11" controller="55" command_string="RadialFilter"/>
+<setting channel="11" controller="56" command_string="Key1"/>
+<setting channel="11" controller="57" command_string="Preset_1"/>
+<setting channel="11" controller="58" command_string="profile5"/>
+
+<setting channel="11" controller="9" command_string="Unmapped"/>
+<setting channel="11" controller="34" command_string="Unmapped"/>
+
 </settings>
 
 
